@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+:root{
+    --bg-color: #f9f5f0;
+    --primary-color: #0e2532;
+    --secondary-color: #aa5f24;
+    --third-color: #eb8d22;
+    --primary-fontFamily: 'DynaPuff', cursive;
+}
+/* Global Styles */
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: var(--primary-fontFamily);
+    color: var(--secondary-color);
+}
+a:hover, a:focus, a:active{
+    color: var(--third-color);
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--secondary-color);
+    font-family: var(--primary-fontFamily);
+}
+/* Header Styles */
+.menu-links a{
+    color: #0e2532
+}
+.menu-links a:hover, .menu-links a:focus, .menu-links a:active{
+    color: var(--secondary-color);
+}
+.slider h1{
+    font-family: var(--primary-fontFamily);
+}
+/* Button Styles */
+.slider-link{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.slider-link:hover, .slider-link:focus, .slider-link:active{
+    background-color: var(--third-color);
+    color: white;
+}
