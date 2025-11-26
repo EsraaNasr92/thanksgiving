@@ -28,7 +28,7 @@ export default function Carousel() {
         <div className="relative">
         {/* Slide */}
         <div className="overflow-hidden">
-            <div className="img-bg bg-[var(--third-color)] w-120 h-120 rounded-full absolute"></div>
+            <div class="img-bg bg-[var(--third-color)] w-120 h-120 rounded-full absolute hidden sm:block"></div>
             <img
                 src={slides[current].image}
                 alt={`Slide ${current + 1}`}
