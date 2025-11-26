@@ -26,21 +26,21 @@ export default function Carousel() {
 
     return (
         <div className="relative">
-        {/* Slide */}
-        <div className="overflow-hidden">
-            <div class="img-bg bg-[var(--third-color)] w-120 h-120 rounded-full absolute hidden sm:block"></div>
-            <img
-                src={slides[current].image}
-                alt={`Slide ${current + 1}`}
-                className="w-full object-cover relative"
-            />
-        </div>
-
-        <div className="absolute top-23 left-50 -translate-x-1/2 flex items-center gap-4 font-semibold text-white text-4xl">
-                <button onClick={prevSlide}>←</button>
-                <span>00{current + 1}</span>
-                <button onClick={nextSlide}>→</button>
+            {/* Slide */}
+            <div className="overflow-hidden">
+                <div className="img-bg bg-[var(--third-color)] w-120 h-120 rounded-full absolute hidden sm:block"></div>
+                <img
+                    src={slides[current].image}
+                    alt={`Slide ${current + 1}`}
+                    className="w-full object-cover relative"
+                />
             </div>
+
+{/*             <div className="absolute top-23 left-50 -translate-x-1/2 flex items-center gap-4 font-semibold text-white text-4xl">
+                    <button onClick={prevSlide}>←</button>
+                    <span>00{current + 1}</span>
+                    <button onClick={nextSlide}>→</button>
+            </div> */}
         </div>
     );
 }

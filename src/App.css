@@ -31,10 +31,10 @@ h1, h2, h3, h4, h5, h6{
 .menu-links a:hover, .menu-links a:focus, .menu-links a:active{
     color: var(--secondary-color);
 }
+/* Slider Styles */
 .slider h1{
     font-family: var(--primary-fontFamily);
 }
-/* Button Styles */
 .slider-link{
     background-color: var(--secondary-color);
     color: white;
