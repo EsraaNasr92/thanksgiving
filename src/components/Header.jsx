@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import Logo from "../assets/logo.png";
 
 export default function Header(){
@@ -22,13 +23,15 @@ export default function Header(){
                             <img src={Logo} alt="Thanksgiving logo" className="h-8 w-auto" />
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
-                            <div className="flex space-x-4 menu-links">
-                                <a href="#" aria-current="page" className="active rounded-md px-3 py-2 text-md font-medium">Home</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-md font-medium">About</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-md font-medium">Recipes</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-md font-medium">Dessert</a>
-                                <a href="#" className="rounded-md px-3 py-2 text-md font-medium">Drinks</a>
-                            </div>
+
+                    <div className="flex space-x-4 menu-links">
+                        <Link to="home" smooth={true} duration={500} className="active rounded-md px-3 py-2 text-md font-medium cursor-pointer">Home</Link>
+                        <Link to="about" smooth={true} duration={500} className="rounded-md px-3 py-2 text-md font-medium cursor-pointer hover:text-orange-600">About</Link>
+                        <Link to="recipes" smooth={true} duration={500} className="rounded-md px-3 py-2 text-md font-medium cursor-pointer hover:text-orange-600">Recipes</Link>
+                        <Link to="dessert" smooth={true} duration={500} className="rounded-md px-3 py-2 text-md font-medium cursor-pointer hover:text-orange-600">Dessert</Link>
+                        <Link to="drink" smooth={true} duration={500} className="rounded-md px-3 py-2 text-md font-medium cursor-pointer hover:text-orange-600">Drinks</Link>
+                    </div>
+
                         </div>
                     </div>
                 </div>
