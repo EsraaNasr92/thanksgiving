@@ -19,7 +19,7 @@ export default function DessertSpotlight() {
                 A classic Thanksgiving dessert made simple: flaky pie crust, a sweet maple filling, and crunchy pecans on top. Perfect for family gatherings!
                 </p>
 
-                <h3 className="text-xl font-semibold mb-2">Pro Tip:</h3>
+                <h3 className="dessert-pro text-xl font-semibold mb-2">Pro Tip:</h3>
                 <p className="text-gray-700 mb-6">
                 Toast the pecans lightly before adding them to the pie. This brings out their natural flavor and makes your pie extra fragrant and crunchy.
                 </p>

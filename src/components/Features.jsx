@@ -9,34 +9,51 @@ export default function Features(){
             
             <div className="flex flex-wrap justify-between gap-6">
             {/*     Column 1    */}
-            <div className="w-full sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
-                hover:bg-[url(./assets/sidedish.jpg)] hover:bg-cover hover:bg-center
-                hover:bg-black/40 hover:bg-blend-overlay
-                transition-all duration-300 group">
-                <h3 className="text-xl mb-2">Side Dishes</h3>
-                <p className="text-gray-600 py-5 group-hover:text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <Link to="recipes" smooth={true} duration={500} className="cursor-pointer">Read more</Link>
-            </div>
+            <div className="features w-full h-120 sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
+                bg-[url(./assets/sidedish.jpg)] hover:bg-cover hover:bg-center
+                transition-all duration-300 group relative flex flex-col items-center justify-center p-6 text-center">
+                
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 rounded-xl"></div>
+
+                    <div className="relative z-10 text-center">
+                        <h3 className="text-3xl mb-2 text-white">Side Dishes</h3>
+                        <p className="text-gray-200 py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <Link to="recipes" smooth={true} duration={500} className="text-xl cursor-pointer text-white underline">
+                            Read more
+                        </Link>
+                    </div>
+                </div>
 
             {/*     Column 2   */}
-            <div className="group w-full sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
-                            transition-all duration-300
-                            hover:bg-[url(./assets/maincourse.jpg)] hover:bg-cover hover:bg-center
-                            hover:bg-black/40 hover:bg-blend-overlay">
-                <h3 className="relative z-10 text-xl mb-2 group-hover:text-gray-200">Main Course</h3>
-                <p className="text-gray-600 py-5 group-hover:text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <Link to="recipes" smooth={true} duration={500} className="cursor-pointer">Read more</Link>
+            <div className="features w-full h-120 sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
+                bg-[url(./assets/maincourse.jpg)] hover:bg-cover hover:bg-center
+                transition-all duration-300 group relative flex flex-col items-center justify-center p-6 text-center">
+                
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 rounded-xl"></div>
+
+                <div className="relative z-10 text-center">
+                    <h3 className="text-3xl mb-2 text-white">Main Course</h3>
+                    <p className="text-gray-200 py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <Link to="recipes" smooth={true} duration={500} className="text-xl cursor-pointer text-white underline">Read more</Link>
+                </div>
             </div>
 
             {/*     Column 3   */}
-            <div className="w-full sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
-                hover:bg-[url(./assets/dessert.jpg)] hover:bg-cover hover:bg-center 
-                hover:bg-black/40 hover:bg-blend-overlay
-                transition-all duration-300 group">
-                <h3 className="text-xl mb-2">Bread & Dessert</h3>
-                <p className="text-gray-600 py-5 group-hover:text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <Link to="recipes" smooth={true} duration={500} className="cursor-pointer">Read more</Link>
-            </div>
+                <div className="features w-full h-120 sm:w-[48%] lg:w-[32%] bg-white shadow-md p-6 rounded-xl
+                bg-[url(./assets/dessert.jpg)] hover:bg-cover hover:bg-center
+                transition-all duration-300 group relative flex flex-col items-center justify-center p-6 text-center">
+                    
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 rounded-xl"></div>
+                    
+                    <div className="relative z-10 text-center">
+                        <h3 className="text-3xl mb-2 text-white">Dessert</h3>
+                        <p className="text-gray-200 py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <Link to="recipes" smooth={true} duration={500} className="text-xl cursor-pointer text-white underline">Read more</Link>
+                    </div>
+                </div>
             </div>
 
 

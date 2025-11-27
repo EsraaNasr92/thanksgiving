@@ -75,7 +75,7 @@ export default function SeasonalDrink() {
                             <h3 className="text-2xl font-semibold text-orange-700 mb-2">
                             {drink.name}
                             </h3>
-                            <p className="text-gray-700 mb-4">{drink.description}</p>
+                            <p className="text-gray-600 mb-4">{drink.description}</p>
                         </div>
                         </div>
                     ))}

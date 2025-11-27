@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 :root{
-    --bg-color: #f9f5f0;
+    --bg-color: #fde9ce;
     --primary-color: #0e2532;
-    --secondary-color: #aa5f24;
-    --third-color: #eb8d22;
+    --secondary-color: #5c2800;
+    --third-color: #ff9e27;
     --primary-fontFamily: 'DynaPuff', cursive;
 }
 /* Global Styles */
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
     color: #0e2532
 }
 .menu-links a:hover, .menu-links a:focus, .menu-links a:active{
-    color: var(--secondary-color);
+    color: var(--third-color);
 }
 /* Slider Styles */
 .slider h1{
@@ -46,4 +46,15 @@ h1, h2, h3, h4, h5, h6{
 /* Cooking Section Styles */
 .cooking-tips b{
     font-family: var(--primary-fontFamily);
+}
+/* Features style */
+.features h3{
+    color: var(--bg-color);
+}
+.features a{
+    color: white;
+}
+/* Dessert Spotlight Styles */
+.dessert-pro{
+    color: var(--third-color);
 }

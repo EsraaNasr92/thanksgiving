@@ -12,6 +12,10 @@ export default function Slider() {
                     have your dish for<br />
                     Thanksgiving night?
                 </h1>
+                
+                <p className="mt-10 leading-8 text-xl text-gray-700">
+                    Make This Thanksgiving Extra Special. Delicious meals crafted for your festive table.
+                </p>
 
                 <div className="button flex flex-col sm:flex-row items-center sm:items-start py-6 gap-4 my-10">
                     <Link
@@ -33,13 +37,6 @@ export default function Slider() {
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7l7 7-7 7"></path>
                     </svg>
-                </div>
-
-                <div className="subtext">
-                    <h2 className="text-2xl py-3">Don't worry about dinner</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi!
-                    </p>
                 </div>
             </div>
 

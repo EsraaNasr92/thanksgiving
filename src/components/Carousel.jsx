@@ -35,12 +35,6 @@ export default function Carousel() {
                     className="w-full object-cover relative"
                 />
             </div>
-
-{/*             <div className="absolute top-23 left-50 -translate-x-1/2 flex items-center gap-4 font-semibold text-white text-4xl">
-                    <button onClick={prevSlide}>←</button>
-                    <span>00{current + 1}</span>
-                    <button onClick={nextSlide}>→</button>
-            </div> */}
         </div>
     );
 }

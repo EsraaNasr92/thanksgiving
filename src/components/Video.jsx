@@ -8,7 +8,7 @@ export default function Video() {
                 <div className="relative">
                     <video
                         src={Thanksgiving}
-                        className="w-full h-[600px] object-cover"
+                        className="w-full h-[700px] object-cover"
                         controls={false}
                         autoPlay
                         loop
